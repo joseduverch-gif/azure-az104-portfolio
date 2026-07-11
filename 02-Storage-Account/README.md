@@ -125,5 +125,3 @@ Implementar y administrar un Azure Storage Account utilizando Blob Storage y mec
 ## Resultado
 
 Se implementó correctamente un Azure Storage Account, se almacenaron archivos en Blob Storage y se configuró un mecanismo de acceso temporal mediante SAS Token.
-
-gfsbhhbdgbsdfbgdsbg
