@@ -142,5 +142,5 @@ Microsoft Certified: Azure Administrator Associate (AZ-104)
 
 - GitHub: https://github.com/joseduverch-gif
 
-- LinkedIn: (Agrega aquí el enlace a tu perfil cuando lo tengas actualizado.)*
+- LinkedIn: (Agrega aquí el enlace a tu perfil cuando lo tengas actualizado.)
 
