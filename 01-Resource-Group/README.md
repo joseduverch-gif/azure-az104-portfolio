@@ -49,6 +49,7 @@ RG-LAB-AZ104
 ### Virtual Network
 
 ![Virtual Network](images/vnet-created.png)
+![Virtual Network](images/subnet-created.png)
 
 ### Network Security Group
 
