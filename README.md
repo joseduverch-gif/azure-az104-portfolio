@@ -6,7 +6,7 @@ Bienvenido a mi portafolio de laboratorios de Microsoft Azure.
 
 
 
-Este repositorio documenta proyectos prácticos realizados durante mi preparación para la certificación \*\*Microsoft Certified: Azure Administrator Associate (AZ-104)\*\*.
+Este repositorio documenta proyectos prácticos realizados durante mi preparación para la certificación Microsoft Certified: Azure Administrator Associate (AZ-104).
 
 
 
