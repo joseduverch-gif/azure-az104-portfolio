@@ -1,8 +1,8 @@
-\# Proyecto 03 - Azure RBAC
+# Proyecto 03 - Azure RBAC
 
 
 
-\## Objetivo
+## Objetivo
 
 
 
@@ -10,33 +10,33 @@ Implementar el control de acceso basado en roles (RBAC) utilizando Microsoft Ent
 
 
 
-\---
+---
 
 
 
-\## Recursos utilizados
+## Recursos utilizados
 
 
 
-\- Microsoft Entra ID
+- Microsoft Entra ID
 
-\- Azure Resource Group
+- Azure Resource Group
 
-\- Azure RBAC
+- Azure RBAC
 
-\- Usuario de prueba
-
-
-
-\---
+- Usuario de prueba
 
 
 
-\## Rol asignado
+---
 
 
 
-Reader
+## Rol asignado
+
+
+
+**Reader**
 
 
 
@@ -44,63 +44,63 @@ Este rol permite visualizar los recursos sin realizar modificaciones.
 
 
 
-\---
+---
 
 
 
-\## Evidencias
+## Evidencias
 
 
 
-\### Usuario creado
+### Usuario creado
 
 
 
-!\[Usuario](images/user-created.png)
+![Usuario](images/user-created.png)
 
 
 
-\### Asignación del rol Reader
+### Asignación del rol Reader
 
 
 
-!\[Reader](images/reader-role-assigned.png)
+![Reader](images/reader-role-assigned.png)
 
 
 
-\### Control de acceso (IAM)
+### Control de acceso (IAM)
 
 
 
-!\[IAM](images/iam-overview.png)
+![IAM](images/iam-overview.png)
 
 
 
-\---
+---
 
 
 
-\## Conceptos aprendidos
+## Conceptos aprendidos
 
 
 
-\- Microsoft Entra ID
+- Microsoft Entra ID
 
-\- Azure RBAC
+- Azure RBAC
 
-\- Control de acceso (IAM)
+- Control de acceso (IAM)
 
-\- Roles integrados
+- Roles integrados
 
-\- Principio de mínimo privilegio
-
-
-
-\---
+- Principio de mínimo privilegio
 
 
 
-\## Roles principales
+---
+
+
+
+## Roles principales
 
 
 
@@ -116,13 +116,9 @@ Este rol permite visualizar los recursos sin realizar modificaciones.
 
 
 
-\---
+---
 
 
 
-\## Resultado
-
-
-
+## Resultado
 Se creó un usuario en Microsoft Entra ID y se asignó el rol Reader sobre un grupo de recursos mediante Azure RBAC.
-
