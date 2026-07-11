@@ -1,8 +1,8 @@
-# Proyecto 01 - Implementación de una infraestructura básica en Microsoft Azure
+# Proyecto 01 - Implementación de infraestructura básica en Azure
 
 ## Objetivo
 
-Implementar una infraestructura básica en Azure utilizando redes virtuales, grupos de seguridad y una máquina virtual Windows.
+Implementar una infraestructura básica en Microsoft Azure utilizando una red virtual, un grupo de seguridad de red y una máquina virtual Windows.
 
 ---
 
@@ -14,14 +14,14 @@ Implementar una infraestructura básica en Azure utilizando redes virtuales, gru
 - Network Security Group: NSG-LAB01
 - Windows Server 2022 Virtual Machine
 - Public IP
-- Network Interface
+- Network Interface (NIC)
 - Managed Disk
 
 ---
 
 ## Arquitectura
 
-```
+```text
 RG-LAB-AZ104
 │
 ├── VNET-LAB01
@@ -66,28 +66,27 @@ RG-LAB-AZ104
 
 ## Problemas encontrados
 
-Durante la implementación se presentaron los siguientes inconvenientes:
+Durante el laboratorio se presentaron los siguientes inconvenientes:
 
-- Registro del proveedor **Microsoft.Compute**.
-- Restricción de Availability Zone.
-- Restricción de tamaños de VM disponibles.
-- Configuración del acceso RDP mediante Network Security Group.
+- Registro del proveedor `Microsoft.Compute`.
+- Restricciones de tamaño de máquina virtual (`NotAvailableForSubscription`).
+- Configuración de Availability Zones.
+- Configuración de reglas para acceso RDP.
 
 ---
 
-## Conocimientos aplicados
+## Habilidades demostradas
 
-- Azure Resource Groups
-- Azure Virtual Networks
-- Azure Subnets
-- Network Security Groups
-- Azure Virtual Machines
-- Public IP
-- Remote Desktop (RDP)
-- Administración básica de infraestructura Azure
+- Creación de Resource Groups.
+- Configuración de Virtual Networks.
+- Administración de Subnets.
+- Configuración de Network Security Groups.
+- Implementación de Azure Virtual Machines.
+- Acceso remoto mediante RDP.
+- Diagnóstico y resolución de problemas de implementación.
 
 ---
 
 ## Resultado
 
-La infraestructura fue desplegada correctamente y se logró el acceso remoto a la máquina virtual mediante RDP.
+Se desplegó correctamente una infraestructura básica en Azure y se estableció conexión remota a la máquina virtual mediante RDP.
