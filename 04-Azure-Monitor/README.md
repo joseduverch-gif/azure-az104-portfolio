@@ -1,8 +1,8 @@
-\# Proyecto 04 - Azure Monitor
+# Proyecto 04 - Azure Monitor
 
 
 
-\## Objetivo
+## Objetivo
 
 
 
@@ -10,122 +10,121 @@ Implementar Azure Monitor para supervisar una máquina virtual y generar una ale
 
 
 
-\---
+---
 
 
 
-\## Recursos utilizados
+## Recursos utilizados
 
 
 
-\- Azure Monitor
+- Azure Monitor
 
-\- Alert Rule
+- Alert Rule
 
-\- Action Group
+- Action Group
 
-\- Máquina Virtual (VM-WIN01)
+- Máquina Virtual (VM-WIN01)
 
 
 
-\---
+---
 
 
 
-\## Configuración
+## Configuración
 
 
 
-\- Recurso supervisado: VM-WIN01
+- Recurso supervisado: VM-WIN01
 
-\- Métrica: Percentage CPU
+- Métrica: Percentage CPU
 
-\- Umbral: 80%
+- Umbral: 80%
 
-\- Tipo de umbral: Estático
+- Tipo de umbral: Estático
 
-\- Frecuencia de evaluación: 1 minuto
+- Frecuencia de evaluación: 1 minuto
 
-\- Período de retrospectiva: 5 minutos
+- Período de retrospectiva: 5 minutos
 
 
 
-\---
+---
 
 
 
-\## Evidencias
+## Evidencias
 
 
 
-\### Azure Monitor
+### Azure Monitor
 
 
 
-!\[Monitor](images/monitor-overview.png)
+![Monitor](images/monitor-overview.png)
 
 
 
-\### Regla de alerta
+### Regla de alerta
 
 
 
-!\[Alert Rule](images/alert-rule-list.png)
+![Alert Rule](images/alert-rule-list.png)
 
 
 
-\### Condición de CPU
+### Condición de CPU
 
 
 
-!\[CPU Condition](images/cpu-condition.png)
+![CPU Condition](images/cpu-condition.png)
 
 
 
-\### Action Group
+### Action Group
 
 
 
-!\[Action Group](images/action-group.png)
+![Action Group](images/action-group.png)
 
 
 
-\### Detalles de la alerta
+### Detalles de la alerta
 
 
 
-!\[Alert Details](images/alert-details.png)
+![Alert Details](images/alert-details.png)
 
 
 
-\---
+---
 
 
 
-\## Conceptos aprendidos
+## Conceptos aprendidos
 
 
 
-\- Azure Monitor
+- Azure Monitor
 
-\- Alert Rules
+- Alert Rules
 
-\- Métricas
+- Métricas
 
-\- Action Groups
+- Action Groups
 
-\- Supervisión de máquinas virtuales
+- Supervisión de máquinas virtuales
 
-\- Notificaciones automáticas
+- Notificaciones automáticas
 
 
 
-\---
+---
 
 
 
-\## Resultado
-
+## Resultado
 
 
 Se configuró una regla de alerta para supervisar el uso de CPU de la máquina virtual VM-WIN01. Cuando el consumo supera el umbral definido, Azure Monitor ejecuta un Action Group para generar una notificación.
