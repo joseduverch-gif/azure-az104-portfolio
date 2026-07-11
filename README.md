@@ -1,4 +1,4 @@
-\# 🚀 Azure AZ-104 Portfolio
+# 🚀 Azure AZ-104 Portfolio
 
 
 
@@ -10,27 +10,27 @@ Este repositorio documenta proyectos prácticos realizados durante mi preparaci�
 
 
 
-\---
+---
 
 
 
-\## 👨‍💻 Sobre mí
+## 👨‍💻 Sobre mí
 
 
 
-\- Nombre: José Duver Chero Inga
+- Nombre: José Duver Chero Inga
 
-\- Certificación: Microsoft Certified: Azure Administrator Associate (AZ-104)
+- Certificación: Microsoft Certified: Azure Administrator Associate (AZ-104)
 
-\- Objetivo: Fortalecer mis habilidades prácticas en administración de Azure y construir un portafolio profesional.
-
-
-
-\---
+- Objetivo: Fortalecer mis habilidades prácticas en administración de Azure y construir un portafolio profesional.
 
 
 
-\# 📂 Proyectos
+---
+
+
+
+# 📂 Proyectos
 
 
 
@@ -56,11 +56,11 @@ Este repositorio documenta proyectos prácticos realizados durante mi preparaci�
 
 
 
-\---
+---
 
 
 
-\## 📁 Estructura del repositorio
+## 📁 Estructura del repositorio
 
 
 
@@ -92,39 +92,39 @@ azure-az104-portfolio
 
 
 
-\---
+---
 
 
 
-\## 🛠️ Tecnologías utilizadas
+## 🛠️ Tecnologías utilizadas
 
 
 
-\- Microsoft Azure
+- Microsoft Azure
 
-\- Azure Portal
+- Azure Portal
 
-\- Azure Virtual Network
+- Azure Virtual Network
 
-\- Azure Virtual Machines
+- Azure Virtual Machines
 
-\- Azure Storage
+- Azure Storage
 
-\- Azure Monitor
+- Azure Monitor
 
-\- Azure Backup
+- Azure Backup
 
-\- Git
+- Git
 
-\- GitHub
-
-
-
-\---
+- GitHub
 
 
 
-\## 📜 Certificación
+---
+
+
+
+## 📜 Certificación
 
 
 
@@ -132,15 +132,15 @@ Microsoft Certified: Azure Administrator Associate (AZ-104)
 
 
 
-\---
+---
 
 
 
-\## 📬 Contacto
+## 📬 Contacto
 
 
 
-\- GitHub: https://github.com/joseduverch-gif
+- GitHub: https://github.com/joseduverch-gif
 
-\- LinkedIn: \*(Agrega aquí el enlace a tu perfil cuando lo tengas actualizado.)\*
+- LinkedIn: (Agrega aquí el enlace a tu perfil cuando lo tengas actualizado.)*
 
