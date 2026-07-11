@@ -1,8 +1,8 @@
-\# Proyecto 05 - Azure Managed Disks y Snapshots
+# Proyecto 05 - Azure Managed Disks y Snapshots
 
 
 
-\## Objetivo
+## Objetivo
 
 
 
@@ -10,117 +10,117 @@ Aprender a administrar discos administrados (Managed Disks) y crear snapshots pa
 
 
 
-\---
+---
 
 
 
-\## Recursos utilizados
+## Recursos utilizados
 
 
 
-\- Azure Virtual Machine
+- Azure Virtual Machine
 
-\- Managed Disk
+- Managed Disk
 
-\- Snapshot
+- Snapshot
 
-\- Azure Storage
+- Azure Storage
 
 
 
-\---
+---
 
 
 
-\## Configuración
+## Configuración
 
 
 
-\- Máquina Virtual: VM-WIN01
+- Máquina Virtual: VM-WIN01
 
-\- Región: East US 2
+- Región: East US 2
 
-\- Tipo de Snapshot: Full
+- Tipo de Snapshot: Full
 
-\- Redundancia: LRS
+- Redundancia: LRS
 
-\- Tipo de almacenamiento: Standard HDD (LRS)
+- Tipo de almacenamiento: Standard HDD (LRS)
 
 
 
-\---
+---
 
 
 
-\## Evidencias
+## Evidencias
 
 
 
-\### Máquina Virtual
+### Máquina Virtual
 
 
 
-!\[VM](images/vm-overview.png)
+![VM](images/vm-overview.png)
 
 
 
-\### Discos de la VM
+### Discos de la VM
 
 
 
-!\[Disks](images/vm-disks.png)
+![Disks](images/vm-disks.png)
 
 
 
-\### Disco del sistema operativo
+### Disco del sistema operativo
 
 
 
-!\[OS Disk](images/os-disk-overview.png)
+![OS Disk](images/os-disk-overview.png)
 
 
 
-\### Configuración del Snapshot
+### Configuración del Snapshot
 
 
 
-!\[Snapshot Config](images/snapshot-config.png)
+![Snapshot Config](images/snapshot-config.png)
 
 
 
-\### Snapshot creado
+### Snapshot creado
 
 
 
-!\[Snapshot Created](images/snapshot-created.png)
+![Snapshot Created](images/snapshot-created.png)
 
 
 
-\---
+---
 
 
 
-\## Conceptos aprendidos
+## Conceptos aprendidos
 
 
 
-\- Managed Disks
+- Managed Disks
 
-\- Snapshots
+- Snapshots
 
-\- Protección de discos
+- Protección de discos
 
-\- Recuperación de datos
+- Recuperación de datos
 
-\- Azure Storage
+- Azure Storage
 
 
 
-\---
+---
 
 
 
-\## Diferencia entre Managed Disk y Snapshot
+## Diferencia entre Managed Disk y Snapshot
 
 
 
@@ -136,12 +136,11 @@ Aprender a administrar discos administrados (Managed Disks) y crear snapshots pa
 
 
 
-\---
+---
 
 
 
-\## Resultado
-
+## Resultado
 
 
 Se creó un snapshot del disco del sistema operativo de la máquina virtual VM-WIN01 para disponer de un punto de recuperación ante posibles cambios o incidentes.
