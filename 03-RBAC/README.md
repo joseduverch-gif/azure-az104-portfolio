@@ -36,7 +36,7 @@ Implementar el control de acceso basado en roles (RBAC) utilizando Microsoft Ent
 
 
 
-\*\*Reader\*\*
+Reader
 
 
 
