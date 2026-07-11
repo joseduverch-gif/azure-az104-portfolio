@@ -1,8 +1,8 @@
-\# Proyecto 02 - Azure Storage Account
+# Proyecto 02 - Azure Storage Account
 
 
 
-\## Objetivo
+## Objetivo
 
 
 
@@ -10,119 +10,119 @@ Implementar y administrar un Azure Storage Account utilizando Blob Storage y mec
 
 
 
-\---
+---
 
 
 
-\## Recursos implementados
+## Recursos implementados
 
 
 
-\- Storage Account (StorageV2)
+- Storage Account (StorageV2)
 
-\- Blob Container
+- Blob Container
 
-\- Archivo cargado
+- Archivo cargado
 
-\- Access Keys
+- Access Keys
 
-\- Shared Access Signature (SAS)
+- Shared Access Signature (SAS)
 
 
 
-\---
+---
 
 
 
-\## Configuración
+## Configuración
 
 
 
-\- Región: East US 2
+- Región: East US 2
 
-\- Rendimiento: Standard
+- Rendimiento: Standard
 
-\- Redundancia: LRS
+- Redundancia: LRS
 
-\- Tipo de cuenta: StorageV2
+- Tipo de cuenta: StorageV2
 
 
 
-\---
+---
 
 
 
-\## Evidencias
+## Evidencias
 
 
 
-\### Storage Account
+### Storage Account
 
 
 
-!\[Storage](images/storage-overview.png)
+![Storage](images/storage-overview.png)
 
 
 
-\### Blob Container
+### Blob Container
 
 
 
-!\[Container](images/blob-container.png)
+![Container](images/blob-container.png)
 
 
 
-\### Archivo cargado
+### Archivo cargado
 
 
 
-!\[Upload](images/blob-upload.png)
+![Upload](images/blob-upload.png)
 
 
 
-\### Access Keys
+### Access Keys
 
 
 
-!\[Access Keys](images/access-keys.png)
+![Access Keys](images/access-keys.png)
 
 
 
-\### SAS Token
+### SAS Token
 
 
 
-!\[SAS](images/sas-token.png)
+![SAS](images/sas-token.png)
 
 
 
-\---
+---
 
 
 
-\## Conceptos aprendidos
+## Conceptos aprendidos
 
 
 
-\- Azure Storage Account
+- Azure Storage Account
 
-\- Blob Storage
+- Blob Storage
 
-\- Blob Containers
+- Blob Containers
 
-\- Access Keys
+- Access Keys
 
-\- SAS Tokens
+- SAS Tokens
 
-\- Seguridad en Azure Storage
+- Seguridad en Azure Storage
 
 
 
-\---
+---
 
 
 
-\## Resultado
+## Resultado
 
 
 
