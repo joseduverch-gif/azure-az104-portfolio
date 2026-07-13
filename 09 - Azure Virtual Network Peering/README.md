@@ -114,11 +114,11 @@ Implementar Azure Virtual Network Peering para permitir la comunicación privada
 
 
 
-## 3. Estado Connected del Peering
+## 2. Estado Connected del Peering
 
 
 
-![03](images/03-peering-connected.png)
+![03](images/02-vnet-peering-connected.png)
 
 
 
