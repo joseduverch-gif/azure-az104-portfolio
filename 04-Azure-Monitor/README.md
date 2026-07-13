@@ -64,7 +64,10 @@ Implementar Azure Monitor para supervisar una máquina virtual y generar una ale
 
 ![Monitor](images/monitor-overview.png)
 
+### Seleccionar recurso
 
+
+![Monitor](images/resource-selected.png)
 
 ### Regla de alerta
 
@@ -73,10 +76,7 @@ Implementar Azure Monitor para supervisar una máquina virtual y generar una ale
 ![Alert Rule](images/alert-rule-list.png)
 
 
-### Seleccionar recurso
 
-
-![Monitor](images/resource-selected.png)
 
 ### Condición de CPU
 
