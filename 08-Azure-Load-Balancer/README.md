@@ -219,6 +219,7 @@ Azure implementó correctamente todos los recursos.
 
 
 ![Implementación](images/load-balancer-created.png)
+![Implementación](images/load-balancer-created1.png)
 
 
 
