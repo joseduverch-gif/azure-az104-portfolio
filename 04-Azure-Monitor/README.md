@@ -105,7 +105,11 @@ Implementar Azure Monitor para supervisar una máquina virtual y generar una ale
 ![Alert Details](images/alert-details.png)
 
 
+### Alerta creada
 
+
+
+![Alert Details](images/alert-created.png)
 ---
 
 
