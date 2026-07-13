@@ -62,6 +62,8 @@ Este rol permite visualizar los recursos sin realizar modificaciones.
 
 ### Asignación del rol Reader
 
+![Reader](images/selecc-recurs.png)
+
 ![Reader](images/selecc-rol.png)
 
 ![Reader](images/seleccuser.png)
