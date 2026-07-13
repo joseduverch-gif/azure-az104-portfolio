@@ -66,13 +66,13 @@ Este rol permite visualizar los recursos sin realizar modificaciones.
 
 ![Reader](images/seleccuser.png)
 
-![Reader](images/reader-role-assigned.png)
 
 
 
 
 ### Control de acceso (IAM)
 
+![Reader](images/reader-role-assigned.png)
 
 
 ![IAM](images/iam-overview.png)
