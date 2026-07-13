@@ -92,7 +92,11 @@ Implementar Azure Monitor para supervisar una máquina virtual y generar una ale
 
 ![Action Group](images/action-group.png)
 
+### Action Group Agregado
 
+
+
+![Action Group](images/action-group-selected.png)
 
 ### Detalles de la alerta
 
