@@ -6,29 +6,30 @@ Este repositorio documenta los laboratorios prácticos realizados durante mi pre
 
 ## Tecnologías
 
-- Azure Virtual Machines
-- Azure Storage
-- Azure Monitor
-- Azure Backup
-- Azure RBAC
-- Azure Networking
+* Azure Virtual Machines
+* Azure Storage
+* Azure Monitor
+* Azure Backup
+* Azure RBAC
+* Azure Networking
 
 ## Proyectos
 
-| Proyecto | Estado |
-|----------|---------|
-| 01 - Resource Group | ✅ |
-| 02 - Storage Account | ✅ |
-| 03 - RBAC | ✅ |
-| 04 - Azure Monitor | ✅ |
-| 05 - Managed Disks | ✅ |
-| 06 - Azure Backup | ✅ |
+|Proyecto|Estado|
+|-|-|
+|01 - Resource Group|✅|
+|02 - Storage Account|✅|
+|03 - RBAC|✅|
+|04 - Azure Monitor|✅|
+|05 - Managed Disks|✅|
+|06 - Azure Backup|✅|
 
 ## Próximos proyectos
 
-- Azure Key Vault
-- Azure Bastion
-- Azure Load Balancer
-- Azure Application Gateway
-- Azure Policy
-- Azure CLI
+* Azure Key Vault
+* Azure Bastion
+* Azure Load Balancer
+* Azure Application Gateway
+* Azure Policy
+* Azure CLI
+
