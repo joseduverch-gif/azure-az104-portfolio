@@ -26,33 +26,33 @@ El objetivo fue comprender la configuración de un balanceador de carga, Backend
 
 Internet
 
-&#x20;   │
+   │
 
-&#x20;   ▼
+   ▼
 
 Public IP
 
-&#x20;   │
+  │
 
-&#x20;   ▼
+  ▼
 
 Azure Load Balancer
 
-&#x20;   │
+   │
 
-&#x20;   ▼
+   ▼
 
 Backend Pool
 
-&#x20;┌───────────────┐
+┌───────────────┐
 
-&#x20;│               │
+│               │
 
-&#x20;▼               ▼
+▼               ▼
 
 VM-WIN01      VM-WIN02
 
-&#x20;IIS             IIS
+IIS             IIS
 
 ```
 
