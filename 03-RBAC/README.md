@@ -64,9 +64,11 @@ Este rol permite visualizar los recursos sin realizar modificaciones.
 
 ![Reader](images/selecc-rol.png)
 
+![Reader](images/seleccuser.png)
+
 ![Reader](images/reader-role-assigned.png)
 
-![Reader](images/seleccuser.png)
+
 
 
 ### Control de acceso (IAM)
