@@ -1,8 +1,8 @@
-\# 🌐 Azure Virtual Network Peering
+# 🌐 Azure Virtual Network Peering
 
 
 
-\## 📌 Objetivo
+## 📌 Objetivo
 
 
 
@@ -10,71 +10,71 @@ Implementar Azure Virtual Network Peering para permitir la comunicación privada
 
 
 
-\---
+---
 
 
 
-\# 🏗️ Arquitectura
+# 🏗️ Arquitectura
 
 
 
 ```
 
-&#x20;                   Azure Subscription
+              Azure Subscription
 
 
 
-&#x20;                 RG-LAB-AZ104
+             RG-LAB-AZ104
 
-&#x20;                        │
+                      │
 
-&#x20;       ┌────────────────┴────────────────┐
+     ┌────────────────┴────────────────┐
 
-&#x20;       │                                 │
+      │                                 │
 
-&#x20;  VNET-LAB01                       VNET-LAB02
+ VNET-LAB01                       VNET-LAB02
 
-&#x20;  10.0.0.0/16                      10.1.0.0/16
+ 10.0.0.0/16                      10.1.0.0/16
 
-&#x20;       │                                 │
+     │                                 │
 
-&#x20;  VM-WIN01                         (Sin VM)
+ VM-WIN01                         (Sin VM)
 
-&#x20;  VM-WIN02
+ VM-WIN02
 
-&#x20;       │
+   │
 
-&#x20;       └──────────── Peering ────────────┘
+   └──────────── Peering ────────────┘
 
 ```
 
 
 
-\---
+---
 
 
 
-\# 🎯 Objetivos del laboratorio
+# 🎯 Objetivos del laboratorio
 
 
 
-\- Crear una segunda Virtual Network.
+- Crear una segunda Virtual Network.
 
-\- Configurar Virtual Network Peering.
+- Configurar Virtual Network Peering.
 
-\- Permitir la comunicación entre ambas redes virtuales.
+- Permitir la comunicación entre ambas redes virtuales.
 
-\- Comprender el funcionamiento del emparejamiento de redes en Azure.
+- Comprender el funcionamiento del emparejamiento de redes en Azure.
 
-\- Validar el estado del peering.
-
-
-
-\---
+- Validar el estado del peering.
 
 
 
-\# 🛠️ Recursos utilizados
+---
+
+
+
+# 🛠️ Recursos utilizados
 
 
 
@@ -94,39 +94,39 @@ Implementar Azure Virtual Network Peering para permitir la comunicación privada
 
 
 
-\---
+---
 
 
 
-\# 📷 Evidencias
+# 📷 Evidencias
 
 
 
-\## 1. Creación de la segunda Virtual Network
+## 1. Creación de la segunda Virtual Network
 
 
 
-!\[01](images/01-create-vnet-lab02.png)
+![01](images/01-create-vnet-lab02.png)
 
 
 
-\---
+---
 
 
 
-\## 3. Estado Connected del Peering
+## 3. Estado Connected del Peering
 
 
 
-!\[03](images/03-peering-connected.png)
+![03](images/03-peering-connected.png)
 
 
 
-\---
+---
 
 
 
-\# 🔍 Verificación
+# 🔍 Verificación
 
 
 
@@ -134,21 +134,21 @@ Se comprobó que:
 
 
 
-\- Ambas Virtual Networks pertenecen a la misma región (\*\*East US 2\*\*).
+- Ambas Virtual Networks pertenecen a la misma región (\*\*East US 2\*\*).
 
-\- Los espacios de direcciones IP no se superponen.
+- Los espacios de direcciones IP no se superponen.
 
-\- El Virtual Network Peering quedó en estado \*\*Connected\*\*.
+- El Virtual Network Peering quedó en estado \*\*Connected\*\*.
 
-\- Se habilitó el acceso entre ambas redes virtuales.
-
-
-
-\---
+- Se habilitó el acceso entre ambas redes virtuales.
 
 
 
-\# ⚠️ Limitación encontrada
+---
+
+
+
+# ⚠️ Limitación encontrada
 
 
 
@@ -160,9 +160,9 @@ Actualmente las máquinas virtuales:
 
 
 
-\- VM-WIN01
+- VM-WIN01
 
-\- VM-WIN02
+- VM-WIN02
 
 
 
@@ -178,35 +178,35 @@ La configuración del Virtual Network Peering quedó implementada correctamente 
 
 
 
-\---
+---
 
 
 
-\# 📚 Conceptos aprendidos
+# 📚 Conceptos aprendidos
 
 
 
-\- Azure Virtual Networks
+- Azure Virtual Networks
 
-\- Address Spaces
+- Address Spaces
 
-\- Subnets
+- Subnets
 
-\- Virtual Network Peering
+- Virtual Network Peering
 
-\- Comunicación privada entre VNets
+- Comunicación privada entre VNets
 
-\- Configuración de acceso entre redes
+- Configuración de acceso entre redes
 
-\- Limitaciones de cuotas (vCPU Quotas)
-
-
-
-\---
+- Limitaciones de cuotas (vCPU Quotas)
 
 
 
-\# 💡 Conclusiones
+---
+
+
+
+# 💡 Conclusiones
 
 
 
@@ -218,17 +218,7 @@ Durante este laboratorio se implementó correctamente el emparejamiento entre do
 
 
 
-\---
+---
 
 
-
-\## 👨‍💻 Autor
-
-
-
-\*\*Jose Duver Chero Inga\*\*
-
-
-
-Azure Administrator Associate (AZ-104)
 
