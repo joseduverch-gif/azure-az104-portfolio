@@ -185,7 +185,7 @@ Lo que confirma que la política fue aplicada correctamente.
 
 ### Definición de la Policy
 
-
+![Policy Assignment](images/01-Azure-Policy-Overview.png)
 
 ![Policy Definition](images/01-policy-definition.png)
 
@@ -196,6 +196,7 @@ Lo que confirma que la política fue aplicada correctamente.
 
 
 ### Asignación de la Policy
+
 
 
 
