@@ -210,11 +210,8 @@ Esto confirma que la User Defined Route está siendo utilizada por la interfaz d
 
 
 
-```
 
-images/01-route-table-created.png
-
-```
+![Creación de la Route Table](images/01-route-table-created.png)
 
 
 
@@ -226,11 +223,7 @@ images/01-route-table-created.png
 
 
 
-```
-
-images/02-route-added.png
-
-```
+![Ruta UDR creada](images/02-route-added.png)
 
 
 
@@ -242,11 +235,7 @@ images/02-route-added.png
 
 
 
-```
-
-images/03-route-associated.png
-
-```
+![Asociación de la Route Table](images/03-route-associated.png)
 
 
 
@@ -258,11 +247,7 @@ images/03-route-associated.png
 
 
 
-```
-
-images/04-effective-routes.png
-
-```
+![Effective Routes](images/04-effective-routes.png)
 
 
 
@@ -273,13 +258,7 @@ images/04-effective-routes.png
 ## 5. Validación final de la Route Table
 
 
-
-```
-
-images/05-route-validation.png
-
-```
-
+![Validación de la Route Table](images/05-route-validation.png)
 
 
 ---
