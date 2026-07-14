@@ -125,17 +125,11 @@ Se analizaron las reglas configuradas en el NSG.
 
 
 | Prioridad | Regla | Puerto | Acción |
-
 |-----------|---------|---------|---------|
-
 |100|Allow-RDP-MyIP|3389|Allow|
-
 |110|Allow-HTTP|80|Allow|
-
 |65000|AllowVnetInBound|Todos|Allow|
-
 |65001|AllowAzureLoadBalancerInBound|Todos|Allow|
-
 |65500|DenyAllInBound|Todos|Deny|
 
 
