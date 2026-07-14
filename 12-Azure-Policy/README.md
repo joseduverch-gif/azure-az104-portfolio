@@ -214,7 +214,9 @@ Lo que confirma que la política fue aplicada correctamente.
 
 ![Policy Denied](images/03-policy-denied.png)
 
+La política impidió la creación de un recurso que no cumplía con las etiquetas obligatorias.
 
+![Policy Denied](images/05-policy-deny-route-table.png)
 
 ---
 
