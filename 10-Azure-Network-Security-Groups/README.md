@@ -101,21 +101,13 @@ VM-WIN02
 
 
 | Recurso | Nombre |
-
 |----------|---------|
-
 | Resource Group | RG-LAB-AZ104 |
-
 | Virtual Network | VNET-LAB01 |
-
 | Subnet | SUBNET-SERVERS |
-
 | Network Security Group | NSG-LAB01 |
-
 | Load Balancer | LB-LAB01 |
-
 | Virtual Machine | VM-WIN01 |
-
 | Virtual Machine | VM-WIN02 |
 
 
