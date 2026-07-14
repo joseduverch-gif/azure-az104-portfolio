@@ -1,12 +1,12 @@
-\# Proyecto 10 - Azure Network Security Groups (NSG)
+# Proyecto 10 - Azure Network Security Groups (NSG)
 
 
 
-\## Descripción
+## Descripción
 
 
 
-En este laboratorio se implementó y administró un \*\*Network Security Group (NSG)\*\* para controlar el tráfico de red hacia las máquinas virtuales de una infraestructura en Azure.
+En este laboratorio se implementó y administró un **Network Security Group (NSG)** para controlar el tráfico de red hacia las máquinas virtuales de una infraestructura en Azure.
 
 
 
@@ -14,35 +14,35 @@ El objetivo fue comprender cómo Azure evalúa las reglas de seguridad según su
 
 
 
-\---
+---
 
 
 
-\# Objetivos
+# Objetivos
 
 
 
-\- Comprender el funcionamiento de Azure Network Security Groups.
+- Comprender el funcionamiento de Azure Network Security Groups.
 
-\- Analizar reglas de entrada y salida.
+- Analizar reglas de entrada y salida.
 
-\- Configurar reglas personalizadas.
+- Configurar reglas personalizadas.
 
-\- Entender el orden de evaluación de prioridades.
+- Entender el orden de evaluación de prioridades.
 
-\- Bloquear y restaurar el acceso HTTP.
+- Bloquear y restaurar el acceso HTTP.
 
-\- Identificar la diferencia entre un NSG asociado a una Subnet y uno asociado a una NIC.
+- Identificar la diferencia entre un NSG asociado a una Subnet y uno asociado a una NIC.
 
-\- Documentar el proceso siguiendo buenas prácticas de administración.
-
-
-
-\---
+- Documentar el proceso siguiendo buenas prácticas de administración.
 
 
 
-\# Arquitectura
+---
+
+
+
+# Arquitectura
 
 
 
@@ -92,11 +92,11 @@ VM-WIN02
 
 
 
-\---
+---
 
 
 
-\# Recursos utilizados
+# Recursos utilizados
 
 
 
@@ -120,11 +120,11 @@ VM-WIN02
 
 
 
-\---
+---
 
 
 
-\# Reglas existentes
+# Reglas existentes
 
 
 
@@ -148,15 +148,15 @@ Se analizaron las reglas configuradas en el NSG.
 
 
 
-\---
+---
 
 
 
-\# Desarrollo del laboratorio
+# Desarrollo del laboratorio
 
 
 
-\## Paso 1
+## Paso 1
 
 
 
@@ -164,15 +164,15 @@ Se revisaron las reglas de entrada existentes del NSG.
 
 
 
-!\[01](images/01-NSG-Inbound-Rules.png)
+![01](images/01-NSG-Inbound-Rules.png)
 
 
 
-\---
+---
 
 
 
-\## Paso 2
+## Paso 2
 
 
 
@@ -184,27 +184,27 @@ Configuración utilizada:
 
 
 
-\- Puerto: 80
+- Puerto: 80
 
-\- Protocolo: TCP
+- Protocolo: TCP
 
-\- Acción: Deny
+- Acción: Deny
 
-\- Prioridad: 105
+- Prioridad: 105
 
-\- Nombre: Deny-HTTP-Test
-
-
-
-!\[02](images/02-Crear-Regla-Deny-HTTP.png)
+- Nombre: Deny-HTTP-Test
 
 
 
-\---
+![02](images/02-Crear-Regla-Deny-HTTP.png)
 
 
 
-\## Paso 3
+---
+
+
+
+## Paso 3
 
 
 
@@ -216,15 +216,15 @@ Esto permitió comprobar el funcionamiento de las prioridades del NSG.
 
 
 
-!\[03](images/03-IIS-Bloqueado-NSG.png)
+![03](images/03-IIS-Bloqueado-NSG.png)
 
 
 
-\---
+---
 
 
 
-\## Paso 4
+## Paso 4
 
 
 
@@ -232,15 +232,15 @@ Se verificó que la regla Deny-HTTP-Test quedó aplicada correctamente.
 
 
 
-!\[04](images/04-Regla-Deny-HTTP.png)
+![04](images/04-Regla-Deny-HTTP.png)
 
 
 
-\---
+---
 
 
 
-\## Paso 5
+## Paso 5
 
 
 
@@ -252,15 +252,15 @@ El sitio IIS volvió a responder normalmente.
 
 
 
-!\[05](images/05-IIS-Restaurado.png)
+![05](images/05-IIS-Restaurado.png)
 
 
 
-\---
+---
 
 
 
-\## Paso 6
+## Paso 6
 
 
 
@@ -272,15 +272,15 @@ Se comprobó que el NSG se encuentra asociado a la \*\*Subnet\*\* y no directame
 
 
 
-!\[06](images/06-VM-Network-Configuration.png)
+![06](images/06-VM-Network-Configuration.png)
 
 
 
-\---
+---
 
 
 
-\# Explicación técnica
+# Explicación técnica
 
 
 
@@ -308,41 +308,41 @@ Ejemplo:
 
 
 
-Cuando un paquete destinado al puerto 80 llega al NSG, Azure encuentra primero la regla \*\*Deny HTTP (105)\*\* y deja de evaluar el resto de reglas.
+Cuando un paquete destinado al puerto 80 llega al NSG, Azure encuentra primero la regla **Deny HTTP (105)** y deja de evaluar el resto de reglas.
 
 
 
-Como consecuencia, la regla \*\*Allow HTTP (110)\*\* nunca llega a aplicarse.
+Como consecuencia, la regla **Allow HTTP (110)** nunca llega a aplicarse.
 
 
 
-\---
+---
 
 
 
-\# Diferencia entre NSG en Subnet y NIC
+# Diferencia entre NSG en Subnet y NIC
 
 
 
-\## NSG asociado a Subnet
+## NSG asociado a Subnet
 
 
 
-\- Protege todos los recursos de la subred.
+- Protege todos los recursos de la subred.
 
-\- Es la práctica más común en entornos empresariales.
+- Es la práctica más común en entornos empresariales.
 
-\- Facilita la administración centralizada.
-
-
-
-\## NSG asociado a NIC
+- Facilita la administración centralizada.
 
 
 
-\- Solo afecta a una máquina virtual específica.
+## NSG asociado a NIC
 
-\- Se utiliza cuando una VM requiere reglas especiales.
+
+
+- Solo afecta a una máquina virtual específica.
+
+- Se utiliza cuando una VM requiere reglas especiales.
 
 
 
@@ -350,31 +350,31 @@ En este laboratorio el NSG fue asociado a la Subnet.
 
 
 
-\---
+---
 
 
 
-\# Buenas prácticas
+# Buenas prácticas
 
 
 
-\- Utilizar prioridades organizadas.
+- Utilizar prioridades organizadas.
 
-\- Restringir el acceso RDP únicamente a direcciones IP autorizadas.
+- Restringir el acceso RDP únicamente a direcciones IP autorizadas.
 
-\- Evitar reglas Allow demasiado amplias.
+- Evitar reglas Allow demasiado amplias.
 
-\- Documentar cualquier cambio antes de aplicarlo.
+- Documentar cualquier cambio antes de aplicarlo.
 
-\- Restaurar siempre la configuración original después de realizar pruebas.
-
-
-
-\---
+- Restaurar siempre la configuración original después de realizar pruebas.
 
 
 
-\# Resultado
+---
+
+
+
+# Resultado
 
 
 
@@ -382,29 +382,29 @@ Se logró:
 
 
 
-\- Comprender el funcionamiento de Azure Network Security Groups.
+- Comprender el funcionamiento de Azure Network Security Groups.
 
-\- Analizar reglas existentes.
+- Analizar reglas existentes.
 
-\- Implementar reglas personalizadas.
+- Implementar reglas personalizadas.
 
-\- Bloquear temporalmente el acceso HTTP.
+- Bloquear temporalmente el acceso HTTP.
 
-\- Restaurar correctamente el servicio.
+- Restaurar correctamente el servicio.
 
-\- Comprender el procesamiento por prioridad de Azure.
-
-
-
-\---
+- Comprender el procesamiento por prioridad de Azure.
 
 
 
-\# Preguntas frecuentes de entrevista
+---
 
 
 
-\### ¿Cómo procesa Azure las reglas de un NSG?
+# Preguntas frecuentes de entrevista
+
+
+
+### ¿Cómo procesa Azure las reglas de un NSG?
 
 
 
@@ -412,11 +412,11 @@ Azure evalúa las reglas según su prioridad, comenzando por el número más baj
 
 
 
-\---
+---
 
 
 
-\### ¿Qué sucede si una regla Deny tiene mayor prioridad que una Allow?
+### ¿Qué sucede si una regla Deny tiene mayor prioridad que una Allow?
 
 
 
@@ -424,11 +424,11 @@ La regla Deny será aplicada y Azure dejará de evaluar las reglas restantes.
 
 
 
-\---
+---
 
 
 
-\### ¿Cuál es la diferencia entre aplicar un NSG a una Subnet y a una NIC?
+### ¿Cuál es la diferencia entre aplicar un NSG a una Subnet y a una NIC?
 
 
 
@@ -444,11 +444,11 @@ Solo protege la máquina virtual asociada a esa interfaz.
 
 
 
-\---
+---
 
 
 
-\### ¿Qué puertos se utilizaron en este laboratorio?
+### ¿Qué puertos se utilizaron en este laboratorio?
 
 
 
@@ -460,29 +460,29 @@ Solo protege la máquina virtual asociada a esa interfaz.
 
 
 
-\---
+---
 
 
 
-\# Tecnologías utilizadas
+# Tecnologías utilizadas
 
 
 
-\- Microsoft Azure
+- Microsoft Azure
 
-\- Azure Virtual Network
+- Azure Virtual Network
 
-\- Azure Network Security Group
+- Azure Network Security Group
 
-\- Azure Load Balancer
+- Azure Load Balancer
 
-\- Windows Server
+- Windows Server
 
-\- IIS
+- IIS
 
 
 
-\---
+---
 
 \# Habilidades demostradas
 
@@ -506,7 +506,7 @@ Solo protege la máquina virtual asociada a esa interfaz.
 
 
 
-\# Autor
+# Autor
 
 
 
