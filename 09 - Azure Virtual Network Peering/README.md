@@ -79,17 +79,11 @@ Implementar Azure Virtual Network Peering para permitir la comunicación privada
 
 
 | Recurso | Nombre |
-
 |----------|---------|
-
 | Resource Group | RG-LAB-AZ104 |
-
 | Virtual Network | VNET-LAB01 |
-
 | Virtual Network | VNET-LAB02 |
-
 | Virtual Network Peering | VNET01-to-VNET02 |
-
 | Virtual Network Peering | VNET02-to-VNET01 |
 
 
@@ -151,32 +145,11 @@ Se comprobó que:
 # ⚠️ Limitación encontrada
 
 
+El emparejamiento entre VNET-LAB01 y VNET-LAB02 fue implementado correctamente y ambos peerings alcanzaron el estado Connected, confirmando que la configuración fue exitosa.
 
-La suscripción utilizada para el laboratorio tiene una cuota limitada de vCPU para la familia \*\*Standard\_D2s\_v3\*\*.
+La validación mediante una máquina virtual adicional no pudo realizarse debido a la cuota de vCPU disponible en la suscripción de laboratorio, que impedía crear una tercera máquina virtual.
 
-
-
-Actualmente las máquinas virtuales:
-
-
-
-- VM-WIN01
-
-- VM-WIN02
-
-
-
-consumen la totalidad de la cuota disponible.
-
-
-
-Por este motivo no fue posible crear una tercera máquina virtual dentro de \*\*VNET-LAB02\*\* para realizar pruebas de conectividad entre ambas redes.
-
-
-
-La configuración del Virtual Network Peering quedó implementada correctamente y lista para ser utilizada cuando exista capacidad disponible para implementar recursos adicionales.
-
-
+La configuración quedó preparada para realizar dicha prueba una vez exista capacidad disponible.
 
 ---
 
