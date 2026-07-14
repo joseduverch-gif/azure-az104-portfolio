@@ -218,7 +218,7 @@ Información general del recurso **Bastion-LAB01**, mostrando la configuración 
 
 
 
-![Vista general de Azure Bastion](images/04-bastion-resource-overview.png)
+![Vista general de Azure Bastion](images/04-bastion-overview.png)
 
 
 
