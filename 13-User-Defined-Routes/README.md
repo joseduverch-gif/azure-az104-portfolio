@@ -1,12 +1,12 @@
-\# Proyecto 13 - User Defined Routes (UDR) en Azure
+# Proyecto 13 - User Defined Routes (UDR) en Azure
 
 
 
-\## 📌 Descripción
+## 📌 Descripción
 
 
 
-En este laboratorio se implementó una \*\*User Defined Route (UDR)\*\* utilizando una \*\*Route Table\*\* en Microsoft Azure.
+En este laboratorio se implementó una **User Defined Route (UDR)** utilizando una **Route Table** en Microsoft Azure.
 
 
 
@@ -18,31 +18,31 @@ Además, se validó la correcta aplicación de la ruta utilizando la herramienta
 
 
 
-\---
+---
 
 
 
-\# Objetivos
+# Objetivos
 
 
 
-\- Crear una Route Table.
+- Crear una Route Table.
 
-\- Crear una User Defined Route (UDR).
+- Crear una User Defined Route (UDR).
 
-\- Asociar la Route Table a una subred.
+- Asociar la Route Table a una subred.
 
-\- Verificar que la máquina virtual reciba la nueva ruta.
+- Verificar que la máquina virtual reciba la nueva ruta.
 
-\- Validar el funcionamiento mediante Effective Routes.
-
-
-
-\---
+- Validar el funcionamiento mediante Effective Routes.
 
 
 
-\# Arquitectura
+---
+
+
+
+# Arquitectura
 
 
 
@@ -50,133 +50,101 @@ Además, se validó la correcta aplicación de la ruta utilizando la herramienta
 
 Internet
 
-&#x20;    │
+ │
 
-&#x20;    ▼
+ ▼
 
 +-----------------------+
 
 | User Defined Route    |
-
 | 0.0.0.0/0 → Internet  |
-
 +-----------------------+
-
-&#x20;           │
-
-&#x20;           ▼
-
+         │
+         ▼
 +-----------------------+
-
 | Route Table           |
-
 | RT-LAB01              |
-
 +-----------------------+
 
-&#x20;           │
-
-&#x20;           ▼
-
+         │
+         ▼
 +-----------------------+
-
 | SUBNET-SERVERS        |
-
 +-----------------------+
 
-&#x20;           │
-
-&#x20;           ▼
-
+       │
+       ▼
 +-----------------------+
-
 | VM-WIN01              |
-
 +-----------------------+
 
 ```
 
 
 
-\---
+---
 
 
 
-\# Recursos utilizados
+# Recursos utilizados
 
 
 
 | Recurso | Nombre |
-
 |---------|--------|
-
 | Resource Group | RG-LAB-AZ104 |
-
 | Virtual Network | VNET-LAB01 |
-
 | Subred | SUBNET-SERVERS |
-
 | Máquina Virtual | VM-WIN01 |
-
 | Route Table | RT-LAB01 |
-
 | Ruta UDR | Ruta-Internet |
-
 
 
 \---
 
 
 
-\# Configuración realizada
+# Configuración realizada
 
 
 
-\## Route Table
+## Route Table
 
 
 
 | Configuración | Valor |
-
 |--------------|-------|
-
 | Nombre | RT-LAB01 |
-
 | Región | East US 2 |
-
 | Propagación BGP | Habilitada |
 
 
 
-\---
+---
 
 
 
-\## Ruta creada
+## Ruta creada
 
 
 
 | Parámetro | Valor |
-
 |-----------|-------|
-
 | Nombre | Ruta-Internet |
-
 | Prefijo de destino | 0.0.0.0/0 |
-
 | Tipo del próximo salto | Internet |
 
 
 
-\---
+--
 
 
 
-\## Asociación
+## Asociación
 
 
 
-La Route Table \*\*RT-LAB01\*\* fue asociada a la subred:
+La Route Table **RT-LAB01** fue asociada a la subred:
 
 
 
@@ -200,15 +168,15 @@ VNET-LAB01
 
 
 
-\---
+---
 
 
 
-\# Validación
+# Validación
 
 
 
-La validación se realizó utilizando la herramienta \*\*Rutas eficaces (Effective Routes)\*\* sobre la interfaz de red de la máquina virtual.
+La validación se realizó utilizando la herramienta **Rutas eficaces (Effective Routes)** sobre la interfaz de red de la máquina virtual.
 
 
 
@@ -221,9 +189,7 @@ Resultado observado:
 
 
 | Origen | Estado | Destino | Próximo salto |
-
 |---------|---------|----------|---------------|
-
 | Usuario | Activo | 0.0.0.0/0 | Internet |
 
 
@@ -232,15 +198,15 @@ Esto confirma que la User Defined Route está siendo utilizada por la interfaz d
 
 
 
-\---
+---
 
 
 
-\# Evidencias
+# Evidencias
 
 
 
-\## 1. Creación de la Route Table
+## 1. Creación de la Route Table
 
 
 
@@ -252,11 +218,11 @@ images/01-route-table-created.png
 
 
 
-\---
+---
 
 
 
-\## 2. Creación de la ruta UDR
+## 2. Creación de la ruta UDR
 
 
 
@@ -268,11 +234,11 @@ images/02-route-added.png
 
 
 
-\---
+---
 
 
 
-\## 3. Asociación de la Route Table a la subred
+## 3. Asociación de la Route Table a la subred
 
 
 
@@ -284,11 +250,11 @@ images/03-route-associated.png
 
 
 
-\---
+---
 
 
 
-\## 4. Validación mediante Effective Routes
+## 4. Validación mediante Effective Routes
 
 
 
@@ -300,11 +266,11 @@ images/04-effective-routes.png
 
 
 
-\---
+---
 
 
 
-\## 5. Validación final de la Route Table
+## 5. Validación final de la Route Table
 
 
 
@@ -316,11 +282,11 @@ images/05-route-validation.png
 
 
 
-\---
+---
 
 
 
-\# Aprendizajes
+# Aprendizajes
 
 
 
@@ -328,45 +294,45 @@ Durante este laboratorio aprendí a:
 
 
 
-\- Crear una Route Table en Azure.
+- Crear una Route Table en Azure.
 
-\- Implementar una User Defined Route.
+- Implementar una User Defined Route.
 
-\- Comprender cómo Azure procesa las rutas del sistema y las rutas personalizadas.
+- Comprender cómo Azure procesa las rutas del sistema y las rutas personalizadas.
 
-\- Asociar una Route Table a una subred.
+- Asociar una Route Table a una subred.
 
-\- Utilizar Effective Routes para validar el enrutamiento efectivo de una máquina virtual.
+- Utilizar Effective Routes para validar el enrutamiento efectivo de una máquina virtual.
 
-\- Interpretar el origen de las rutas (Sistema vs Usuario).
-
-
-
-\---
+- Interpretar el origen de las rutas (Sistema vs Usuario).
 
 
 
-\# Conclusión
+---
 
 
 
-Las \*\*User Defined Routes (UDR)\*\* permiten controlar el flujo del tráfico dentro de una red virtual de Azure, ofreciendo mayor flexibilidad para implementar arquitecturas de red personalizadas.
+# Conclusión
 
 
 
-La validación mediante \*\*Effective Routes\*\* confirmó que la ruta configurada fue aplicada correctamente a la interfaz de red de la máquina virtual, verificando el correcto funcionamiento de la Route Table.
+Las **User Defined Routes (UDR)** permiten controlar el flujo del tráfico dentro de una red virtual de Azure, ofreciendo mayor flexibilidad para implementar arquitecturas de red personalizadas.
 
 
 
-\---
+La validación mediante **Effective Routes** confirmó que la ruta configurada fue aplicada correctamente a la interfaz de red de la máquina virtual, verificando el correcto funcionamiento de la Route Table.
 
 
 
-\## Estado del proyecto
+---
 
 
 
-\*\*Proyecto completado.\*\*
+## Estado del proyecto
+
+
+
+**Proyecto completado.**
 
 
 
