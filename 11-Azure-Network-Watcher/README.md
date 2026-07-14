@@ -59,7 +59,7 @@ No fue necesario crear nuevas máquinas virtuales.
 
 Se accedió al servicio Azure Network Watcher desde el portal de Azure.
 
-![01](images/01-Network-Watcher.png)
+![01](images/01-Network-Watcher-Overview.png)
 
 ---
 
