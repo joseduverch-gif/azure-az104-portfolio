@@ -484,6 +484,26 @@ Solo protege la máquina virtual asociada a esa interfaz.
 
 \---
 
+\# Habilidades demostradas
+
+
+
+\- Administración de Azure Network Security Groups.
+
+\- Configuración de reglas Inbound y Outbound.
+
+\- Comprensión de prioridades de reglas.
+
+\- Diagnóstico y resolución de problemas de conectividad.
+
+\- Administración de redes virtuales en Azure.
+
+\- Documentación técnica utilizando GitHub.
+
+
+
+\---
+
 
 
 \# Autor
