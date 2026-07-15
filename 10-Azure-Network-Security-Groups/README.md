@@ -46,29 +46,28 @@ El objetivo fue comprender cómo Azure evalúa las reglas de seguridad según su
 
 
 
-    Internet
+Internet
 
-         ↓
+    ↓
 
 Azure Load Balancer (LB-LAB01)
 
-         ↓
+      ↓
 
-     VNET-LAB01 
+VNET-LAB01 
 
-         ↓
+      ↓
 
-   SUBNET-SERVERS
+SUBNET-SERVERS
 
-        ↓
+      ↓
 
-    NSG-LAB01
+ NSG-LAB01
 
-        ↓
+     ↓
 
-    VM-WIN01
-
-    VM-WIN02
+ VM-WIN01
+ VM-WIN02
 
 
 
