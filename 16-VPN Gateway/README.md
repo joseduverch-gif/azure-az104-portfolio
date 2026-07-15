@@ -55,7 +55,6 @@ Se creó una **Public IP** dedicada.
 
 PIP-VPNGW01
 
-**Captura de pantalla:**
 
 ![Configuración inicial Public IP](./images/03-public-ip-basic-settings.png)
 
@@ -69,7 +68,7 @@ Se aplicó la etiqueta requerida por **Azure Policy**.
 
 `Environment = Produccion`
 
-**Captura de pantalla:**
+
 
 ![Tags Public IP](./images/04-public-ip-tags.png)
 
@@ -79,7 +78,7 @@ Se aplicó la etiqueta requerida por **Azure Policy**.
 
 Se validó la configuración de la **Public IP** antes de completar la implementación.
 
-**Captura de pantalla:**
+
 
 ![Revisión Public IP](./images/05-public-ip-review.png)
 
@@ -89,7 +88,6 @@ Se validó la configuración de la **Public IP** antes de completar la implement
 
 La **Public IP** fue implementada correctamente.
 
-**Captura de pantalla:**
 
 ![Public IP creada](./images/06-public-ip-created.png)
 
@@ -111,7 +109,7 @@ GatewaySubnet
 
 10.0.255.0/27
 
-**Captura de pantalla:**
+
 
 ![Configuración GatewaySubnet](./images/07-gatewaysubnet-configuration.png)
 
@@ -121,7 +119,7 @@ GatewaySubnet
 
 La **GatewaySubnet** fue implementada correctamente.
 
-**Captura de pantalla:**
+
 
 ![GatewaySubnet creada](./images/08-gatewaysubnet-created.png)
 
@@ -135,7 +133,7 @@ Se configuró el **Azure VPN Gateway**.
 
 VPNGW-LAB01
 
-**Captura de pantalla:**
+
 
 ![Configuración VPN Gateway](./images/01-vpngateway-basic-settings.png)
 
@@ -149,7 +147,7 @@ Se aplicaron las etiquetas requeridas.
 
 `Environment = Produccion`
 
-**Captura de pantalla:**
+
 
 ![Tags VPN Gateway](./images/02-vpngateway-tags.png)
 
@@ -159,7 +157,7 @@ Se aplicaron las etiquetas requeridas.
 
 La validación de la implementación finalizó correctamente.
 
-**Captura de pantalla:**
+
 
 ![Validación VPN Gateway](./images/09-vpngateway-validation-success.png)
 
@@ -169,7 +167,7 @@ La validación de la implementación finalizó correctamente.
 
 La implementación del **VPN Gateway** se completó correctamente.
 
-**Captura de pantalla:**
+
 
 ![Despliegue VPN Gateway exitoso](./images/10-vpngateway-deployment-success.png)
 
@@ -179,7 +177,7 @@ La implementación del **VPN Gateway** se completó correctamente.
 
 Vista general del **VPN Gateway**.
 
-**Captura de pantalla:**
+
 
 ![Vista general VPN Gateway](./images/11-vpngateway-overview.png)
 
