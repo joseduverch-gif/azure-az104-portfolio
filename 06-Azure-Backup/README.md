@@ -43,7 +43,7 @@ Implementar Azure Backup mediante un Recovery Services Vault para proteger una m
 ### Backup manual (opcional)
 
 ![Backup Now](images/backup-now.png)
-
+![Backup Now](images/backup-job-completed.png)
 ---
 
 ## Conceptos aprendidos
