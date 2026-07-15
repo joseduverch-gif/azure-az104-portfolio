@@ -46,6 +46,7 @@ El objetivo fue comprender cómo Azure evalúa las reglas de seguridad según su
 
 
 
+```
 Internet
 
     ↓
@@ -70,6 +71,7 @@ SUBNET-SERVERS
  VM-WIN02
 
 
+```
 
 ---
 
