@@ -26,6 +26,7 @@ Implementar Azure Backup mediante un Recovery Services Vault para proteger una m
 
 ### Recovery Services Vault
 
+![Vault](images/recovery-vault-created.png)
 ![Vault](images/vault-overview.png)
 
 ### Configuración del Backup
