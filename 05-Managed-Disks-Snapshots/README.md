@@ -125,13 +125,9 @@ Aprender a administrar discos administrados (Managed Disks) y crear snapshots pa
 
 
 | Managed Disk | Snapshot |
-
 |--------------|----------|
-
 | Disco utilizado por la VM | Copia puntual del disco |
-
 | Contiene el sistema operativo o datos | Permite restaurar o clonar un disco |
-
 | Está en uso por la VM | No está conectado a una VM |
 
 
