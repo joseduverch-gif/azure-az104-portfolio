@@ -67,25 +67,15 @@ IIS             IIS
 
 
 | Recurso | Nombre |
-
 |----------|---------|
-
 | Resource Group | RG-LAB-AZ104 |
-
 | Virtual Network | VNET-LAB01 |
-
 | Load Balancer | LB-LAB01 |
-
 | Public IP | PIP-LB01 |
-
 | Backend Pool | BEPOOL-LAB01 |
-
 | Health Probe | HP-HTTP |
-
 | Regla de Balanceo | LBRule-HTTP |
-
 | Virtual Machine | VM-WIN01 |
-
 | Virtual Machine | VM-WIN02 |
 
 
