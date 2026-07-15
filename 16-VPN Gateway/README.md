@@ -1,24 +1,25 @@
-# Project 16 - Azure VPN Gateway
+# Proyecto 16 - Azure VPN Gateway
 
-## Objective
+## Objetivo
 
-Deploy an Azure VPN Gateway to provide secure connectivity between Azure virtual networks and on-premises environments using a Virtual Network Gateway.
+Implementar un **Azure VPN Gateway** para proporcionar conectividad segura entre redes virtuales de Azure y entornos locales (**on-premises**) utilizando una **Virtual Network Gateway**.
 
 ---
 
-# Architecture
+# Arquitectura
 
-Azure Subscription
+```text
+Suscripción de Azure
 
 ↓
 
-Resource Group
+Grupo de recursos
 
 ↓
 
 VNET-LAB01
 
-├── Subnet
+├── Subred
 
 ├── GatewaySubnet
 
@@ -29,12 +30,13 @@ VPN Gateway
 ↓
 
 Public IP
+```
 
 ---
 
-# Resources Used
+# Recursos utilizados
 
-| Resource | Name |
+| Recurso | Nombre |
 |----------|----------------|
 | Virtual Network | VNET-LAB01 |
 | Gateway Subnet | GatewaySubnet |
@@ -43,169 +45,175 @@ Public IP
 
 ---
 
-# Deployment
+# Implementación
 
-## Step 1
+## Paso 1
 
-Created a dedicated Public IP Address.
+Se creó una **Public IP** dedicada.
 
-Resource:
+**Recurso:**
 
 PIP-VPNGW01
 
-Screenshot:
+**Captura de pantalla:**
 
-`images/03-public-ip-basic-settings.png`
-
----
-
-## Step 2
-
-Applied the required Azure Policy tag.
-
-Environment = Produccion
-
-Screenshot:
-
-`images/04-public-ip-tags.png`
+![Configuración inicial Public IP](./images/03-public-ip-basic-settings.png)
 
 ---
 
-## Step 3
+## Paso 2
 
-Validated the Public IP deployment.
+Se aplicó la etiqueta requerida por **Azure Policy**.
 
-Screenshot:
+**Etiqueta:**
 
-`images/05-public-ip-review.png`
+`Environment = Produccion`
 
----
+**Captura de pantalla:**
 
-## Step 4
-
-Public IP deployed successfully.
-
-Screenshot:
-
-`images/06-public-ip-created.png`
+![Tags Public IP](./images/04-public-ip-tags.png)
 
 ---
 
-## Step 5
+## Paso 3
 
-Created the mandatory GatewaySubnet.
+Se validó la configuración de la **Public IP** antes de completar la implementación.
 
-Network:
+**Captura de pantalla:**
+
+![Revisión Public IP](./images/05-public-ip-review.png)
+
+---
+
+## Paso 4
+
+La **Public IP** fue implementada correctamente.
+
+**Captura de pantalla:**
+
+![Public IP creada](./images/06-public-ip-created.png)
+
+---
+
+## Paso 5
+
+Se creó la subred obligatoria **GatewaySubnet**.
+
+**Red virtual:**
 
 VNET-LAB01
 
-Subnet:
+**Subred:**
 
 GatewaySubnet
 
-Address Space:
+**Espacio de direcciones:**
 
 10.0.255.0/27
 
-Screenshot:
+**Captura de pantalla:**
 
-`images/07-gatewaysubnet-configuration.png`
-
----
-
-## Step 6
-
-GatewaySubnet successfully deployed.
-
-Screenshot:
-
-`images/08-gatewaysubnet-created.png`
+![Configuración GatewaySubnet](./images/07-gatewaysubnet-configuration.png)
 
 ---
 
-## Step 7
+## Paso 6
 
-Configured Azure VPN Gateway.
+La **GatewaySubnet** fue implementada correctamente.
 
-Resource:
+**Captura de pantalla:**
+
+![GatewaySubnet creada](./images/08-gatewaysubnet-created.png)
+
+---
+
+## Paso 7
+
+Se configuró el **Azure VPN Gateway**.
+
+**Recurso:**
 
 VPNGW-LAB01
 
-Screenshot:
+**Captura de pantalla:**
 
-`images/01-vpngateway-basic-settings.png`
+![Configuración VPN Gateway](./images/01-vpngateway-basic-settings.png)
 
 ---
 
-## Step 8
+## Paso 8
 
-Applied required tags.
+Se aplicaron las etiquetas requeridas.
 
+**Etiqueta:**
+
+`Environment = Produccion`
+
+**Captura de pantalla:**
+
+![Tags VPN Gateway](./images/02-vpngateway-tags.png)
+
+---
+
+## Paso 9
+
+La validación de la implementación finalizó correctamente.
+
+**Captura de pantalla:**
+
+![Validación VPN Gateway](./images/09-vpngateway-validation-success.png)
+
+---
+
+## Paso 10
+
+La implementación del **VPN Gateway** se completó correctamente.
+
+**Captura de pantalla:**
+
+![Despliegue VPN Gateway exitoso](./images/10-vpngateway-deployment-success.png)
+
+---
+
+## Paso 11
+
+Vista general del **VPN Gateway**.
+
+**Captura de pantalla:**
+
+![Vista general VPN Gateway](./images/11-vpngateway-overview.png)
+
+---
+
+# Desafío encontrado
+
+La **Azure Policy** creada en el Proyecto 12 requería que todos los recursos contuvieran la siguiente etiqueta:
+
+```text
 Environment = Produccion
+```
 
-Screenshot:
+Durante la implementación del **Azure VPN Gateway**, Azure puede crear automáticamente un recurso **Public IP** si no se proporciona uno existente.
 
-`images/02-vpngateway-tags.png`
+El recurso creado automáticamente no hereda las etiquetas personalizadas, provocando que **Azure Policy** rechazara la implementación.
 
----
-
-## Step 9
-
-Deployment validation completed successfully.
-
-Screenshot:
-
-`images/09-vpngateway-validation-success.png`
+Además, la suscripción había alcanzado el límite máximo permitido de recursos **Public IP**.
 
 ---
 
-## Step 10
+# Solución
 
-VPN Gateway deployment completed.
+El problema fue resuelto mediante las siguientes acciones:
 
-Screenshot:
-
-`images/10-vpngateway-deployment-success.png`
-
----
-
-## Step 11
-
-VPN Gateway Overview.
-
-Screenshot:
-
-`images/11-vpngateway-overview.png`
+- Se eliminó **Azure Bastion** para liberar una cuota de Public IP.
+- Se creó manualmente la **Public IP**.
+- Se aplicó la etiqueta requerida por **Azure Policy**.
+- Se creó la **GatewaySubnet** requerida.
+- Se reutilizó la **Public IP** existente durante la implementación del **VPN Gateway**.
 
 ---
 
-# Challenge Encountered
-
-The Azure Policy created in Project 12 required all resources to contain:
-
-Environment = Produccion
-
-Azure VPN Gateway automatically creates a Public IP resource during deployment.
-
-The automatic deployment does not propagate custom tags to the Public IP, causing Azure Policy to reject the deployment.
-
-Additionally, the subscription reached the maximum number of allowed Public IP resources.
-
----
-
-# Resolution
-
-The issue was resolved by:
-
-- Removing Azure Bastion to free one Public IP quota.
-- Creating the Public IP manually.
-- Applying the required Azure Policy tag.
-- Creating the required GatewaySubnet.
-- Reusing the existing Public IP during VPN Gateway deployment.
-
----
-
-# Skills Demonstrated
+# Habilidades demostradas
 
 - Azure Networking
 - Azure VPN Gateway
@@ -213,12 +221,12 @@ The issue was resolved by:
 - GatewaySubnet
 - Azure Policy
 - Public IP Management
-- Troubleshooting Azure Deployments
-- Resource Dependencies
-- Infrastructure Validation
+- Solución de problemas en implementaciones de Azure
+- Gestión de dependencias entre recursos
+- Validación de infraestructura
 
 ---
 
-# Result
+# Resultado
 
-Azure VPN Gateway deployed successfully using an existing Public IP while complying with Azure Policy requirements.
+Se implementó correctamente un **Azure VPN Gateway** utilizando una **Public IP** existente y cumpliendo con los requisitos definidos por **Azure Policy**.
