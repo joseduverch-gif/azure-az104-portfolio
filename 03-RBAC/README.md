@@ -110,15 +110,10 @@ Este rol permite visualizar los recursos sin realizar modificaciones.
 
 
 | Rol | Descripción |
-
 |------|-------------|
-
 | Reader | Solo lectura |
-
 | Contributor | Puede crear y modificar recursos |
-
 | Owner | Control total, incluyendo la administración de permisos |
-
 
 
 ---
