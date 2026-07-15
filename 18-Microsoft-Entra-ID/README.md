@@ -352,9 +352,6 @@ Se verificó:
 
 
 
-![Resumen del usuario](./images/14-user-summary.png)
-
-
 
 ---
 
