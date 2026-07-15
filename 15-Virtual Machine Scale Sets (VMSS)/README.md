@@ -61,21 +61,13 @@ Implementar un **Virtual Machine Scale Set (VMSS)** para administrar un conjunto
 
 
 | Recurso | Nombre |
-
 |----------|---------|
-
 | Grupo de recursos | RG-LAB-AZ104 |
-
 | Virtual Machine Scale Set | VMSS-LAB01 |
-
 | Virtual Network | VNET-LAB01 |
-
 | Load Balancer | LB-LAB01 |
-
 | Backend Pool | BEPOOL-LAB01 |
-
 | Imagen | Windows Server 2022 Datacenter x64 Gen2 |
-
 | Tamaño | Standard_D2s_v3 |
 
 
@@ -93,19 +85,12 @@ Implementar un **Virtual Machine Scale Set (VMSS)** para administrar un conjunto
 
 
 | Parámetro | Valor |
-
 |-----------|-------|
-
 | Región | East US 2 |
-
 | Orquestación | Uniforme |
-
 | Escalado | Manual |
-
 | Instancias iniciales | 1 |
-
 | Sistema operativo | Windows Server 2022 |
-
 | Tamaño | Standard_D2s_v3 |
 
 
@@ -119,15 +104,10 @@ Implementar un **Virtual Machine Scale Set (VMSS)** para administrar un conjunto
 
 
 | Parámetro | Valor |
-
 |-----------|-------|
-
 | Virtual Network | VNET-LAB01 |
-
 | Load Balancer | LB-LAB01 |
-
 | Backend Pool | BEPOOL-LAB01 |
-
 
 
 ---
