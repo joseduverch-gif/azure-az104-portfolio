@@ -41,9 +41,9 @@
 | Certification | Verification |
 |---------------|--------------|
 | 🟦 Azure Administrator Associate (AZ-104) | [View Credential](https://learn.microsoft.com/api/credentials/share/es-es/JoseDuverCheroInga-8774/4247DD14DFC5FD9?sharingId=4ADB26558782A914) |
-| 🟦 Azure Fundamentals (AZ-900) | [View Credential](https://learn.microsoft.com/api/credentials/share/es-es/JoseDuverCheroInga-8774/89C3FF5D31EEDDC8?sharingId=4ADB26558782A914) |
-| 🟪 Security, Compliance, and Identity Fundamentals (SC-900) | [View Credential](https://learn.microsoft.com/api/credentials/share/es-es/JoseDuverCheroInga-8774/5A999DF3940935F2?sharingId=4ADB26558782A914) |
-| 🟩 Microsoft 365 Fundamentals (MS-900) | [View Credential](https://learn.microsoft.com/api/credentials/share/es-es/JoseDuverCheroInga-8774/B44C34882C9E385B?sharingId=4ADB26558782A914) |
+| 🟦 Azure Fundamentals (AZ-900) | [View Credential](https://learn.microsoft.com/api/credentials/share/es-es/JoseDuverCheroInga-8774/B44C34882C9E385B?sharingId=4ADB26558782A914) |
+| 🟪 Security, Compliance, and Identity Fundamentals (SC-900) | [View Credential](https://learn.microsoft.com/api/credentials/share/es-es/JoseDuverCheroInga-8774/89C3FF5D31EEDDC8?sharingId=4ADB26558782A914) |
+| 🟩 Microsoft 365 Fundamentals (MS-900) | [View Credential](https://learn.microsoft.com/api/credentials/share/es-es/JoseDuverCheroInga-8774/5A999DF3940935F2?sharingId=4ADB26558782A914) |
 
 
 
