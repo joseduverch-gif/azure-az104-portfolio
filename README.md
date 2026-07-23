@@ -1,35 +1,26 @@
-# Azure AZ-104 Portfolio
+<p align="center">
 
-## Sobre este repositorio
+<img src="assets/banner-github.png" alt="Azure Cloud Administrator Banner" width="100%">
 
-Este repositorio documenta los laboratorios prácticos realizados durante mi preparación para la certificación Microsoft Azure Administrator (AZ-104).
+</p>
+<p align="center">
 
-## Tecnologías
+![AZ-104](https://img.shields.io/badge/AZ--104-Azure%20Administrator-0078D4?style=for-the-badge&logo=microsoftazure&logoColor=white)
 
-* Azure Virtual Machines
-* Azure Storage
-* Azure Monitor
-* Azure Backup
-* Azure RBAC
-* Azure Networking
+![AZ-900](https://img.shields.io/badge/AZ--900-Azure%20Fundamentals-0078D4?style=for-the-badge&logo=microsoftazure&logoColor=white)
 
-## Proyectos
+![SC-900](https://img.shields.io/badge/SC--900-Security-5C2D91?style=for-the-badge&logo=microsoft&logoColor=white)
 
-|Proyecto|Estado|
-|-|-|
-|01 - Resource Group|✅|
-|02 - Storage Account|✅|
-|03 - RBAC|✅|
-|04 - Azure Monitor|✅|
-|05 - Managed Disks|✅|
-|06 - Azure Backup|✅|
+![MS-900](https://img.shields.io/badge/MS--900-Microsoft%20365-00A4EF?style=for-the-badge&logo=microsoft&logoColor=white)
 
-## Próximos proyectos
+</p>
 
-* Azure Key Vault
-* Azure Bastion
-* Azure Load Balancer
-* Azure Application Gateway
-* Azure Policy
-* Azure CLI
+<p align="center">
 
+![Azure](https://img.shields.io/badge/Microsoft-Azure-0078D4?style=for-the-badge&logo=microsoftazure&logoColor=white)
+
+![Cloud](https://img.shields.io/badge/Cloud-Administrator-blue?style=for-the-badge)
+
+![Portfolio](https://img.shields.io/badge/Portfolio-AZ104-success?style=for-the-badge)
+
+</p>
