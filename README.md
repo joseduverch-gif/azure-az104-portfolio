@@ -3,25 +3,35 @@
 <img src="assets/banner-github.png" alt="Azure Cloud Administrator Banner" width="100%">
 
 </p>
+
+
 <p align="center">
 
-![AZ-104](https://img.shields.io/badge/AZ--104-Azure%20Administrator-0078D4?style=for-the-badge&logo=microsoftazure&logoColor=white)
+<a href="https://learn.microsoft.com/api/credentials/share/es-es/JoseDuverCheroInga-8774/4247DD14DFC5FD9?sharingId=4ADB26558782A914" target="_blank">
+<img src="https://img.shields.io/badge/AZ--104-Azure%20Administrator-0078D4?style=for-the-badge&logo=microsoftazure&logoColor=white" alt="AZ-104">
+</a>
 
-![AZ-900](https://img.shields.io/badge/AZ--900-Azure%20Fundamentals-0078D4?style=for-the-badge&logo=microsoftazure&logoColor=white)
+<a href="https://learn.microsoft.com/api/credentials/share/es-es/JoseDuverCheroInga-8774/89C3FF5D31EEDDC8?sharingId=4ADB26558782A914" target="_blank">
+<img src="https://img.shields.io/badge/AZ--900-Azure%20Fundamentals-0078D4?style=for-the-badge&logo=microsoftazure&logoColor=white" alt="AZ-900">
+</a>
 
-![SC-900](https://img.shields.io/badge/SC--900-Security-5C2D91?style=for-the-badge&logo=microsoft&logoColor=white)
+<a href="https://learn.microsoft.com/api/credentials/share/es-es/JoseDuverCheroInga-8774/5A999DF3940935F2?sharingId=4ADB26558782A914" target="_blank">
+<img src="https://img.shields.io/badge/SC--900-Security%2C%20Compliance%20%26%20Identity-5C2D91?style=for-the-badge&logo=microsoft&logoColor=white" alt="SC-900">
+</a>
 
-![MS-900](https://img.shields.io/badge/MS--900-Microsoft%20365-00A4EF?style=for-the-badge&logo=microsoft&logoColor=white)
+<a href="https://learn.microsoft.com/api/credentials/share/es-es/JoseDuverCheroInga-8774/B44C34882C9E385B?sharingId=4ADB26558782A914" target="_blank">
+<img src="https://img.shields.io/badge/MS--900-Microsoft%20365-00A4EF?style=for-the-badge&logo=microsoft&logoColor=white" alt="MS-900">
+</a>
 
 </p>
 
 <p align="center">
 
-![Azure](https://img.shields.io/badge/Microsoft-Azure-0078D4?style=for-the-badge&logo=microsoftazure&logoColor=white)
+<img src="https://img.shields.io/badge/Microsoft-Azure-0078D4?style=for-the-badge&logo=microsoftazure&logoColor=white" alt="Azure">
 
-![Cloud](https://img.shields.io/badge/Cloud-Administrator-blue?style=for-the-badge)
+<img src="https://img.shields.io/badge/Cloud-Administrator-blue?style=for-the-badge" alt="Cloud Administrator">
 
-![Portfolio](https://img.shields.io/badge/Portfolio-AZ104-success?style=for-the-badge)
+<img src="https://img.shields.io/badge/Portfolio-AZ104-success?style=for-the-badge" alt="Portfolio">
 
 </p>
 
