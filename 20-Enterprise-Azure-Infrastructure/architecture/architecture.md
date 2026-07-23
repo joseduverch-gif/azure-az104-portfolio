@@ -1,8 +1,8 @@
-\# Arquitectura Empresarial de Azure
+# Arquitectura Empresarial de Azure
 
 
 
-\## Objetivo
+## Objetivo
 
 
 
@@ -14,41 +14,41 @@ La solución integra servicios de identidad, redes, seguridad, monitoreo, recupe
 
 
 
-\---
+---
 
 
 
-\# Objetivos de la arquitectura
+# Objetivos de la arquitectura
 
 
 
-\- Centralizar la administración de recursos.
+- Centralizar la administración de recursos.
 
-\- Implementar una red virtual segura.
+- Implementar una red virtual segura.
 
-\- Proteger los secretos mediante Azure Key Vault.
+- Proteger los secretos mediante Azure Key Vault.
 
-\- Implementar monitoreo mediante Azure Monitor.
+- Implementar monitoreo mediante Azure Monitor.
 
-\- Supervisar la postura de seguridad con Microsoft Defender for Cloud.
+- Supervisar la postura de seguridad con Microsoft Defender for Cloud.
 
-\- Implementar alta disponibilidad mediante Azure Load Balancer.
+- Implementar alta disponibilidad mediante Azure Load Balancer.
 
-\- Implementar conectividad híbrida mediante Azure VPN Gateway.
+- Implementar conectividad híbrida mediante Azure VPN Gateway.
 
-\- Proteger la información mediante Recovery Services Vault.
+- Proteger la información mediante Recovery Services Vault.
 
-\- Almacenar información mediante Azure Storage Account.
+- Almacenar información mediante Azure Storage Account.
 
-\- Demplegar aplicaciones sobre máquinas virtuales y conjuntos de escalado (VM Scale Sets).
-
-
-
-\---
+- Demplegar aplicaciones sobre máquinas virtuales y conjuntos de escalado (VM Scale Sets).
 
 
 
-\# Componentes principales
+---
+
+
+
+# Componentes principales
 
 
 
@@ -56,39 +56,39 @@ La arquitectura está compuesta por los siguientes servicios:
 
 
 
-\- Microsoft Entra ID
+- Microsoft Entra ID
 
-\- Azure Subscription
+- Azure Subscription
 
-\- Resource Group
+- Resource Group
 
-\- Virtual Network
+- Virtual Network
 
-\- Virtual Machine
+- Virtual Machine
 
-\- Virtual Machine Scale Set
+- Virtual Machine Scale Set
 
-\- Azure Load Balancer
+- Azure Load Balancer
 
-\- Azure VPN Gateway
+- Azure VPN Gateway
 
-\- Azure Key Vault
+- Azure Key Vault
 
-\- Azure Storage Account
+- Azure Storage Account
 
-\- Azure Recovery Services Vault
+- Azure Recovery Services Vault
 
-\- Azure Monitor
+- Azure Monitor
 
-\- Microsoft Defender for Cloud
-
-
-
-\---
+- Microsoft Defender for Cloud
 
 
 
-\# Diagrama de arquitectura
+---
+
+
+
+# Diagrama de arquitectura
 
 
 
@@ -96,41 +96,41 @@ El siguiente diagrama representa la arquitectura completa implementada.
 
 
 
-!\[Arquitectura Empresarial](./enterprise-azure-infrastructure.png)
+![Arquitectura Empresarial](./enterprise-azure-infrastructure.png)
 
 
 
-\---
+---
 
 
 
-\# Flujo general
+# Flujo general
 
 
 
-1\. El administrador accede mediante Microsoft Entra ID.
+1. El administrador accede mediante Microsoft Entra ID.
 
-2\. Los recursos son administrados desde una suscripción de Azure.
+2. Los recursos son administrados desde una suscripción de Azure.
 
-3\. Todos los recursos se encuentran organizados dentro de un Resource Group.
+3. Todos los recursos se encuentran organizados dentro de un Resource Group.
 
-4\. La infraestructura principal se implementa sobre una Virtual Network.
+4. La infraestructura principal se implementa sobre una Virtual Network.
 
-5\. La Virtual Machine representa la carga principal de trabajo.
+5. La Virtual Machine representa la carga principal de trabajo.
 
-6\. El VM Scale Set permite escalar automáticamente la infraestructura.
+6. El VM Scale Set permite escalar automáticamente la infraestructura.
 
-7\. El Azure Load Balancer distribuye el tráfico hacia los recursos.
+7. El Azure Load Balancer distribuye el tráfico hacia los recursos.
 
-8\. El VPN Gateway permite la conectividad híbrida.
+8. El VPN Gateway permite la conectividad híbrida.
 
-9\. Azure Key Vault almacena secretos y credenciales.
+9. Azure Key Vault almacena secretos y credenciales.
 
-10\. Azure Storage Account almacena archivos y datos.
+10. Azure Storage Account almacena archivos y datos.
 
-11\. Recovery Services Vault protege la información mediante copias de seguridad.
+11. Recovery Services Vault protege la información mediante copias de seguridad.
 
-12\. Azure Monitor recopila métricas y registros.
+12. Azure Monitor recopila métricas y registros.
 
-13\. Microsoft Defender for Cloud supervisa continuamente la seguridad del entorno.
+13. Microsoft Defender for Cloud supervisa continuamente la seguridad del entorno.
 
