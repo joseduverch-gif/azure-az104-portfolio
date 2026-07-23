@@ -15,11 +15,11 @@
 <img src="https://img.shields.io/badge/AZ--900-Azure%20Fundamentals-0078D4?style=for-the-badge&logo=microsoftazure&logoColor=white" alt="AZ-900">
 </a>
 
-<a href="https://learn.microsoft.com/api/credentials/share/es-es/JoseDuverCheroInga-8774/5A999DF3940935F2?sharingId=4ADB26558782A914">
+<a href="https://learn.microsoft.com/api/credentials/share/es-es/JoseDuverCheroInga-8774/89C3FF5D31EEDDC8?sharingId=4ADB26558782A914">
 <img src="https://img.shields.io/badge/SC--900-Security%20Fundamentals-5C2D91?style=for-the-badge&logo=microsoft&logoColor=white" alt="SC-900">
 </a>
 
-<a href="https://learn.microsoft.com/api/credentials/share/es-es/JoseDuverCheroInga-8774/B44C34882C9E385B?sharingId=4ADB26558782A914">
+<a href="https://learn.microsoft.com/api/credentials/share/es-es/JoseDuverCheroInga-8774/5A999DF3940935F2?sharingId=4ADB26558782A914">
 <img src="https://img.shields.io/badge/MS--900-Microsoft%20365%20Fundamentals-00A4EF?style=for-the-badge&logo=microsoft&logoColor=white" alt="MS-900">
 </a>
 
