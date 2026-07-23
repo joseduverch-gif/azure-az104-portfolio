@@ -34,15 +34,6 @@
 <img src="https://img.shields.io/badge/GitHub-Portfolio-success?style=for-the-badge&logo=github">
 
 </p>
-<p align="center">
-
-<img src="https://img.shields.io/badge/Microsoft-Azure-0078D4?style=for-the-badge&logo=microsoftazure&logoColor=white" alt="Azure">
-
-<img src="https://img.shields.io/badge/Cloud-Administrator-blue?style=for-the-badge" alt="Cloud Administrator">
-
-<img src="https://img.shields.io/badge/Portfolio-AZ104-success?style=for-the-badge" alt="Portfolio">
-
-</p>
 
 
 # 👋 Hola, soy José Duver Chero Inga
