@@ -104,3 +104,137 @@ Mi objetivo es incorporarme como **Azure Cloud Administrator**, aportando conoci
 ✔ Documentación Técnica
 
 ---
+
+
+# ⭐ Proyecto Destacado
+
+# Enterprise Azure Infrastructure
+
+Este proyecto representa la implementación de una infraestructura empresarial completa en Microsoft Azure, integrando servicios de identidad, redes, seguridad, monitoreo, almacenamiento y recuperación ante desastres.
+
+Su objetivo es demostrar conocimientos prácticos equivalentes a un entorno corporativo administrado por un Azure Cloud Administrator.
+
+---
+
+## Arquitectura General
+
+<p align="center">
+<img src="assets/enterprise-azure-infrastructure.png" width="100%">
+</p>
+
+---
+
+## Servicios implementados
+
+| Servicio | Implementado |
+|----------|--------------|
+| Microsoft Entra ID | ✅ |
+| Azure Resource Group | ✅ |
+| Azure Virtual Network | ✅ |
+| Network Security Group | ✅ |
+| Azure Virtual Machine | ✅ |
+| Azure Virtual Machine Scale Set | ✅ |
+| Azure Load Balancer | ✅ |
+| Azure VPN Gateway | ✅ |
+| Azure Storage Account | ✅ |
+| Azure Key Vault | ✅ |
+| Azure Backup | ✅ |
+| Azure Monitor | ✅ |
+| Azure RBAC | ✅ |
+| Azure Policy | ✅ |
+| Microsoft Defender for Cloud | ✅ |
+
+---
+
+## Escenario empresarial
+
+La infraestructura fue diseñada simulando un entorno empresarial donde múltiples servicios trabajan de forma integrada para proporcionar:
+
+- Administración centralizada.
+- Seguridad.
+- Alta disponibilidad.
+- Monitoreo.
+- Protección de datos.
+- Escalabilidad.
+- Buenas prácticas de infraestructura Cloud.
+
+---
+
+## Tecnologías utilizadas
+
+- Microsoft Azure
+- Microsoft Entra ID
+- Azure Networking
+- Azure Virtual Machines
+- Azure Storage
+- Azure Monitor
+- Azure Backup
+- Azure Key Vault
+- Azure RBAC
+- Azure Policy
+- Azure Defender for Cloud
+- Azure VPN Gateway
+- Azure Load Balancer
+
+---
+
+
+# 📁 Proyectos del Portafolio
+
+| Proyecto | Estado |
+|----------|--------|
+| 01 - Resource Group | ✅ |
+| 02 - Storage Account | ✅ |
+| 03 - Azure RBAC | ✅ |
+| 04 - Azure Monitor | ✅ |
+| 05 - Managed Disks | ✅ |
+| 06 - Azure Backup | ✅ |
+| 07 - Networking | ✅ |
+| 08 - Load Balancer | ✅ |
+| 09 - Virtual Machine Scale Set | ✅ |
+| 10 - Virtual Network Peering | ✅ |
+| 11 - Network Security Groups | ✅ |
+| 12 - Route Tables | ✅ |
+| 13 - Azure Key Vault | ✅ |
+| 14 - Azure VPN Gateway | ✅ |
+| 15 - Microsoft Entra ID | ✅ |
+| 16 - Azure Policy | ✅ |
+| 17 - Microsoft Defender for Cloud | ✅ |
+| 20 - Enterprise Azure Infrastructure | ⭐ Proyecto Integrador |
+
+---
+
+
+# 🎯 Objetivo Profesional
+
+Mi objetivo es desarrollarme profesionalmente como **Azure Cloud Administrator**, participando en la implementación, administración y optimización de infraestructuras empresariales en Microsoft Azure.
+
+Este portafolio refleja mi proceso de aprendizaje práctico, aplicando escenarios similares a los utilizados en entornos reales de producción y siguiendo las mejores prácticas recomendadas por Microsoft.
+
+---
+
+
+# 🚀 Próximos Objetivos
+
+- Microsoft Certified: Azure Solutions Architect Expert (AZ-305)
+- Azure Landing Zones
+- Infrastructure as Code (Bicep / Terraform)
+- Azure Automation
+- Azure Kubernetes Service (AKS)
+- Microsoft Defender XDR
+- Azure DevOps
+
+---
+
+
+# 📫 Contacto
+
+**José Duver Chero Inga**
+
+- 💼 LinkedIn: *(Agregar enlace)*
+- 💻 GitHub: https://github.com/joseduverch-gif
+- ☁️ Azure Administrator Portfolio
+
+---
+
+⭐ Gracias por visitar mi portafolio.
