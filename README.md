@@ -11,7 +11,7 @@
 <img src="https://img.shields.io/badge/AZ--104-Azure%20Administrator-0078D4?style=for-the-badge&logo=microsoftazure&logoColor=white" alt="AZ-104">
 </a>
 
-<a href="https://learn.microsoft.com/api/credentials/share/es-es/JoseDuverCheroInga-8774/89C3FF5D31EEDDC8?sharingId=4ADB26558782A914">
+<a href="https://learn.microsoft.com/api/credentials/share/es-es/JoseDuverCheroInga-8774/B44C34882C9E385B?sharingId=4ADB26558782A914">
 <img src="https://img.shields.io/badge/AZ--900-Azure%20Fundamentals-0078D4?style=for-the-badge&logo=microsoftazure&logoColor=white" alt="AZ-900">
 </a>
 
